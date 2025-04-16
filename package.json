@@ -1,0 +1,22 @@
+{
+  "name": "wasm-benchmark",
+  "version": "0.0.1",
+  "description": "Wasm Benchmark",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "cd src && cp --parents ./**/index.html ../docs && tsc",
+    "build:ts": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wasm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
